@@ -1,0 +1,16 @@
+{
+  "server": {
+    "port": "3030"
+  },
+  "redis": {
+    "host": "localhost:6379"
+  },
+  "tps_config": {
+    "s1": 100,
+    "s2": 500
+  },
+  "ports": [8000, 8001, 8002, 8003, 8004, 8005, 8006, 8007, 8008, 8009],
+  "max_requests_per_connection": 100,
+  "total_connections": 10,
+  "RedisExpiration": 1440
+}
